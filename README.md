@@ -14,6 +14,30 @@ A curated, pattern-first collection of **275 LeetCode problems** designed for in
 
 ---
 
+## 🧠 Prerequisites & Learning Map
+
+Before jumping into a pattern, ensure you are comfortable with its underlying core concepts:
+
+| # | Pattern | Prerequisites & Core Foundations |
+| :-: | :--- | :--- |
+| **1** | **Two Pointers** | Arrays, sorting (many two-pointer problems assume sorted input) |
+| **2** | **Sliding Window** | Arrays, basic loops, HashMaps/Sets for frequency counting |
+| **3** | **Fast & Slow Pointers** | Linked List basics (nodes, `next` pointers, pointer traversal) |
+| **4** | **Merge Intervals** | Sorting (specifically by interval start time), interval comparison logic |
+| **5** | **Cyclic Sort** | Arrays, index-value mapping (works best when values lie in a fixed bound like $1 \dots n$) |
+| **6** | **Monotonic Stack** | Stack operations (`push`/`pop`/`peek`), Arrays |
+| **7** | **Modified Binary Search** | **Vanilla Binary Search first** (master standard binary search before tackling rotated arrays or "binary search on answer" variants) |
+| **8** | **Top K Elements (Heap)** | Heap / Priority Queue fundamentals (insert, extract-min/max, time complexity guarantees) |
+| **9** | **K-way Merge** | Heaps (from Pattern #8) + Merge logic (from Merge Sort) |
+| **10** | **BFS** | Queues, Graph/Tree representation (adjacency lists), Level-order traversal concepts |
+| **11** | **DFS** | **Recursion** (solid foundation required), implicit call stack, Tree/Graph basics |
+| **12** | **Topological Sort** | DFS or BFS (built directly on top of either) + Directed Graphs & In-Degree concept |
+| **13** | **Subsets / Backtracking** | **Solid Recursion**, ability to visualize recursion/decision trees |
+| **14** | **Bitwise / XOR** | Binary number systems, bitwise operators (`AND`, `OR`, `XOR`, `NOT`, bit shifts) |
+| **15–19** | **Dynamic Programming** | **Recursion $\rightarrow$ Top-Down Memoization $\rightarrow$ Bottom-Up Tabulation** (non-negotiable order), comfortable with 1D/2D array indexing |
+
+---
+
 ## 🗺️ Core 20 Patterns
 
 <details open>
