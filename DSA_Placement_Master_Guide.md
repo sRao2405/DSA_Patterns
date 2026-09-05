@@ -1,5 +1,3 @@
-
-Conversation with Gemini
 # DSA + Placement Prep — Master Guide
 
 **Starting point:** July 27, 2026 · **Target:** Backend Developer (Java) · **Runway:** ~10-14 weeks before peak hiring season
