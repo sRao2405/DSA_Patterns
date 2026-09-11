@@ -91,6 +91,288 @@ Bitwise Operations ────────────────────�
 | **W10** | Nov 18 – Nov 24 | Backtracking / Subsets, Bitwise & XOR | Decision trees, permutations, combinations, bitmasking |
 | **W11–13** | Nov 25 – Dec 15 | Dynamic Programming & Union Find (DSU) | Knapsack, LCS/LIS, Palindromes, Interval DP, Disjoint Set |
 
+
+## SDE Interview DSA — Complete Question List
+
+A comprehensive roadmap and problem list categorized by key Data Structures and Algorithms patterns for Software Development Engineer (SDE) interview preparation.
+
+---
+
+## 1. Two Pointers ⭐⭐⭐⭐⭐
+
+- [ ] Two Sum II – Input Array Is Sorted
+- [ ] Valid Palindrome
+- [ ] Remove Duplicates from Sorted Array
+- [ ] Move Zeroes
+- [ ] Squares of a Sorted Array
+- [ ] 3Sum
+- [ ] Container With Most Water
+- [ ] Sort Colors
+- [ ] Trapping Rain Water
+- [ ] 3Sum Closest
+- [ ] 4Sum
+- [ ] Boats to Save People
+- [ ] Backspace String Compare
+- [ ] Merge Sorted Array
+
+> **Core Problems:** 1–9
+
+---
+
+## 2. Fast & Slow Pointers ⭐⭐⭐⭐
+
+- [ ] Middle of the Linked List
+- [ ] Linked List Cycle
+- [ ] Linked List Cycle II
+- [ ] Happy Number
+- [ ] Palindrome Linked List
+- [ ] Reorder List
+- [ ] Remove Nth Node From End of List
+- [ ] Intersection of Two Linked Lists
+- [ ] Find the Duplicate Number
+- [ ] Circular Array Loop
+
+> **Core Problems:** 1–7
+
+---
+
+## 3. Sliding Window ⭐⭐⭐⭐⭐
+
+- [ ] Maximum Average Subarray I
+- [ ] Maximum Number of Vowels in a Substring of Given Length
+- [ ] Permutation in String
+- [ ] Find All Anagrams in a String
+- [ ] Longest Substring Without Repeating Characters
+- [ ] Longest Repeating Character Replacement
+- [ ] Max Consecutive Ones III
+- [ ] Fruit Into Baskets
+- [ ] Minimum Size Subarray Sum
+- [ ] Longest Subarray of 1's After Deleting One Element
+- [ ] Minimum Window Substring
+
+> **Core Problems:** 3–7, 9, 11
+
+---
+
+## 4. Merge Intervals ⭐⭐⭐⭐
+
+- [ ] Merge Intervals
+- [ ] Insert Interval
+- [ ] Non-overlapping Intervals
+- [ ] Meeting Rooms
+- [ ] Meeting Rooms II
+- [ ] Interval List Intersections
+- [ ] Minimum Number of Arrows to Burst Balloons
+- [ ] Employee Free Time
+- [ ] My Calendar I
+
+> **Core Problems:** 1–5
+
+---
+
+## 5. Cyclic Sort ⭐⭐⭐
+
+- [ ] Missing Number
+- [ ] Find All Numbers Disappeared in an Array
+- [ ] Find the Duplicate Number
+- [ ] Set Mismatch
+- [ ] First Missing Positive
+- [ ] Find All Duplicates in an Array
+- [ ] Kth Missing Positive Number
+
+> **Core Problems:** 1, 2, 5, 6
+
+---
+
+## 6. Monotonic Stack ⭐⭐⭐⭐⭐
+
+- [ ] Next Greater Element I
+- [ ] Next Greater Element II
+- [ ] Daily Temperatures
+- [ ] Next Smaller Element
+- [ ] Previous Smaller Element
+- [ ] Online Stock Span
+- [ ] Largest Rectangle in Histogram
+- [ ] Trapping Rain Water
+- [ ] Remove K Digits
+- [ ] Sum of Subarray Minimums
+- [ ] Sum of Subarray Ranges
+- [ ] Maximal Rectangle
+
+> **Core Problems:** 1–8
+
+---
+
+## 7. Modified Binary Search ⭐⭐⭐⭐⭐
+
+- [ ] Search in Rotated Sorted Array
+- [ ] Search in Rotated Sorted Array II
+- [ ] Find Minimum in Rotated Sorted Array
+- [ ] Find Peak Element
+- [ ] Single Element in a Sorted Array
+- [ ] Search a 2D Matrix
+- [ ] Find First and Last Position of Element in Sorted Array
+- [ ] Find K Closest Elements
+- [ ] Koko Eating Bananas
+- [ ] Capacity to Ship Packages Within D Days
+- [ ] Split Array Largest Sum
+
+> **Core Problems:** 1, 3, 4, 5, 7, 9
+
+---
+
+## 8. Top K Elements / Heap ⭐⭐⭐⭐⭐
+
+- [ ] Kth Largest Element in an Array
+- [ ] Top K Frequent Elements
+- [ ] K Closest Points to Origin
+- [ ] Kth Largest Element in a Stream
+- [ ] Top K Frequent Words
+- [ ] Find K Pairs with Smallest Sums
+- [ ] Sort Characters By Frequency
+- [ ] Kth Smallest Element in a Sorted Matrix
+
+> **Core Problems:** 1–6
+
+---
+
+## 9. K-Way Merge ⭐⭐⭐⭐
+
+- [ ] Merge K Sorted Lists
+- [ ] Kth Smallest Element in a Sorted Matrix
+- [ ] Find K Pairs with Smallest Sums
+- [ ] Kth Smallest Number in M Sorted Lists
+- [ ] Smallest Range Covering Elements from K Lists
+- [ ] Merge K Sorted Arrays
+- [ ] Ugly Number II
+
+> **Core Problems:** 1–5  
+> **Note:** *Kth Smallest in Sorted Matrix* and *Find K Pairs with Smallest Sums* overlap with Top-K. You don't need to solve them twice.
+
+---
+
+## 10. BFS / DFS ⭐⭐⭐⭐⭐
+
+### Trees
+- [ ] Binary Tree Level Order Traversal
+- [ ] Maximum Depth of Binary Tree
+
+### Graphs / Grids
+- [ ] Number of Islands
+- [ ] Clone Graph
+- [ ] Flood Fill
+- [ ] Rotting Oranges
+- [ ] Number of Provinces
+- [ ] Pacific Atlantic Water Flow
+- [ ] Surrounded Regions
+- [ ] Word Ladder
+- [ ] Shortest Path in Binary Matrix
+- [ ] Course Schedule
+
+> **Core Problems:** Number of Islands, Clone Graph, Flood Fill, Rotting Oranges, Level Order Traversal, Number of Provinces.
+
+---
+
+## 11. Topological Sort ⭐⭐⭐⭐⭐
+
+- [ ] Course Schedule
+- [ ] Course Schedule II
+- [ ] Alien Dictionary
+- [ ] Find Eventual Safe States
+- [ ] Parallel Courses
+- [ ] Minimum Height Trees
+
+> **Core Problems:** 1, 2, 3  
+> **Key Approaches:**  
+> - **Kahn's Algorithm:** BFS + Indegree  
+> - **DFS:** Cycle Detection
+
+---
+
+## 12. Backtracking / Subsets ⭐⭐⭐⭐⭐
+
+- [ ] Subsets
+- [ ] Permutations
+- [ ] Combination Sum
+- [ ] Combination Sum II
+- [ ] Letter Combinations of a Phone Number
+- [ ] Generate Parentheses
+- [ ] Word Search
+- [ ] Palindrome Partitioning
+- [ ] N-Queens
+- [ ] Sudoku Solver
+
+> **Core Problems:** 1–7  
+> **Fundamental Pattern:**  
+> `Choose` ➔ `Explore` ➔ `Undo`
+
+---
+
+## 13. Bitwise & XOR ⭐⭐⭐⭐
+
+- [ ] Single Number
+- [ ] Missing Number
+- [ ] Number of 1 Bits
+- [ ] Counting Bits
+- [ ] Reverse Bits
+- [ ] Power of Two
+- [ ] Single Number II
+- [ ] Sum of Two Integers
+
+> **Core Problems:** 1, 2, 3, 6, 7  
+> **Important Concepts & Identities:**  
+> - `x ^ x = 0`  
+> - `x ^ 0 = x`  
+> - `a ^ b ^ a = b`  
+> - `n & (n - 1)` (clears lowest set bit)
+
+---
+
+## 14. Dynamic Programming ⭐⭐⭐⭐⭐
+
+### Beginner / 1D DP
+- [ ] Climbing Stairs
+- [ ] House Robber
+- [ ] House Robber II
+- [ ] Coin Change
+- [ ] Word Break
+- [ ] Decode Ways
+
+### Grid DP
+- [ ] Unique Paths
+- [ ] Minimum Path Sum
+
+### Knapsack
+- [ ] Partition Equal Subset Sum
+- [ ] 0/1 Knapsack
+
+### Sequence / String DP
+- [ ] Longest Increasing Subsequence
+- [ ] Longest Common Subsequence
+- [ ] Edit Distance
+
+> **Core Problems:** 1–4, 7, 9, 11, 12  
+> **Learning Progression:**  
+> `Recursion` ➔ `Memoization` ➔ `Tabulation` ➔ `Space Optimization`
+
+---
+
+## 15. Union Find / DSU ⭐⭐⭐⭐
+
+- [ ] Number of Provinces
+- [ ] Redundant Connection
+- [ ] Accounts Merge
+- [ ] Number of Connected Components
+- [ ] Most Stones Removed with Same Row or Column
+- [ ] Satisfiability of Equality Equations
+- [ ] Kruskal's Minimum Spanning Tree
+
+> **Core Problems:** 1, 2, 3, 7
+SDE_Interview_DSA_Question_List.md
+Displaying SDE_Interview_DSA_Question_List.md.
+
+
+
 ### **Struggled / Needs Revisit Tracker**
 
 | Date | Pattern Name | Problem Title | Root Cause / Failure Mode |
