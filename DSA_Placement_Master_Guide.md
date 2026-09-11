@@ -61,7 +61,7 @@ Bitwise Operations ────────────────────�
 **Window:** Sep 6 – Sep 15 (10 Days)
 
 ### **Tree Traversals (Sep 6 – Sep 9)**
-- [ ] Inorder, Preorder, and Postorder (Recursive **and** Iterative implementations)
+- [X] Inorder, Preorder, and Postorder (Recursive **and** Iterative implementations)
 - [ ] Level Order Traversal (BFS on trees)
 - [ ] All-in-one Traversal strategy
 
