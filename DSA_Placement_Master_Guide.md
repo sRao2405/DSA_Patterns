@@ -62,12 +62,12 @@ Bitwise Operations ────────────────────�
 
 ### **Tree Traversals (Sep 6 – Sep 9)**
 - [X] Inorder, Preorder, and Postorder (Recursive **and** Iterative implementations)
-- [ ] Level Order Traversal (BFS on trees)
-- [ ] All-in-one Traversal strategy
+- [X] Level Order Traversal (BFS on trees)
+- [X] All-in-one Traversal strategy
 
 ### **Binary Search Trees & Heaps (Sep 10 – Sep 12)**
-- [ ] **BST:** Search, Insert, and Delete operations (implement by hand)
-- [ ] **Heaps:** Heapify algorithm, Build Heap in $O(N)$, Min/Max Heap mechanics, and "Kth Largest" application
+- [X] **BST:** Search, Insert, and Delete operations (implement by hand)
+- [X] **Heaps:** Heapify algorithm, Build Heap in $O(N)$, Min/Max Heap mechanics, and "Kth Largest" application
 
 ### **Graphs & Advanced Structures (Sep 13 – Sep 15)**
 - [ ] **Graph Representations:** Adjacency Matrix vs. Adjacency List
