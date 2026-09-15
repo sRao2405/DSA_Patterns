@@ -70,9 +70,9 @@ Bitwise Operations ────────────────────�
 - [X] **Heaps:** Heapify algorithm, Build Heap in $O(N)$, Min/Max Heap mechanics, and "Kth Largest" application
 
 ### **Graphs & Advanced Structures (Sep 13 – Sep 15)**
-- [ ] **Graph Representations:** Adjacency Matrix vs. Adjacency List
-- [ ] **Graph Theory:** BFS and DFS traversal concepts (theory pass)
-- [ ] **Tries:** Basic structure and node representation
+- [X] **Graph Representations:** Adjacency Matrix vs. Adjacency List
+- [X] **Graph Theory:** BFS and DFS traversal concepts (theory pass)
+- [X] **Tries:** Basic structure and node representation
 
 ---
 
