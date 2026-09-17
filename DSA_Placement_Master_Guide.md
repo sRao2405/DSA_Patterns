@@ -142,9 +142,9 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 - [ ] Maximum Number of Vowels in a Substring of Given Length
 - [ ] Permutation in String
 - [ ] Find All Anagrams in a String
-- [ ] Longest Substring Without Repeating Characters
+- [X] Longest Substring Without Repeating Characters
 - [ ] Longest Repeating Character Replacement
-- [ ] Max Consecutive Ones III
+- [X] Max Consecutive Ones III
 - [ ] Fruit Into Baskets
 - [ ] Minimum Size Subarray Sum
 - [ ] Longest Subarray of 1's After Deleting One Element
