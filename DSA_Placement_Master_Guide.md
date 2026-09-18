@@ -100,7 +100,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 ## 1. Two Pointers ⭐⭐⭐⭐⭐
 
-- [ ] Two Sum II – Input Array Is Sorted
+- [X] Two Sum II – Input Array Is Sorted
 - [ ] Valid Palindrome
 - [ ] Remove Duplicates from Sorted Array
 - [ ] Move Zeroes
@@ -145,7 +145,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 - [X] Longest Substring Without Repeating Characters
 - [ ] Longest Repeating Character Replacement
 - [X] Max Consecutive Ones III
-- [ ] Fruit Into Baskets
+- [X] Fruit Into Baskets
 - [ ] Minimum Size Subarray Sum
 - [ ] Longest Subarray of 1's After Deleting One Element
 - [ ] Minimum Window Substring
