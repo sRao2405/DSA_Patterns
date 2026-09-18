@@ -101,7 +101,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 ## 1. Two Pointers ⭐⭐⭐⭐⭐
 
 - [X] Two Sum II – Input Array Is Sorted
-- [ ] Valid Palindrome
+- [X] Valid Palindrome
 - [ ] Remove Duplicates from Sorted Array
 - [ ] Move Zeroes
 - [ ] Squares of a Sorted Array
