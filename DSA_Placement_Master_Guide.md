@@ -103,7 +103,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 - [X] Two Sum II – Input Array Is Sorted
 - [X] Valid Palindrome
 - [X] Remove Duplicates from Sorted Array
-- [ ] Move Zeroes
+- [X] Move Zeroes
 - [ ] Squares of a Sorted Array
 - [ ] 3Sum
 - [ ] Container With Most Water
