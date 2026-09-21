@@ -105,7 +105,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 - [X] Remove Duplicates from Sorted Array
 - [X] Move Zeroes
 - [ ] Squares of a Sorted Array
-- [ ] 3Sum
+- [X] 3Sum
 - [ ] Container With Most Water
 - [ ] Sort Colors
 - [ ] Trapping Rain Water
