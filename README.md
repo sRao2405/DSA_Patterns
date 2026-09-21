@@ -104,7 +104,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 - [X] Valid Palindrome
 - [X] Remove Duplicates from Sorted Array
 - [X] Move Zeroes
-- [ ] Squares of a Sorted Array
+- [X] Squares of a Sorted Array
 - [X] 3Sum
 - [ ] Container With Most Water
 - [ ] Sort Colors
