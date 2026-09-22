@@ -56,18 +56,18 @@ graph LR
 **Window:** Sep 6 – Sep 15 (10 Days)
 
 ### Tree Traversals (Sep 6 – Sep 9)
-* [ ] Inorder, Preorder, and Postorder (Recursive and Iterative implementations)
-* [ ] Level Order Traversal (BFS on trees)
-* [ ] All-in-one Traversal strategy
+* [X] Inorder, Preorder, and Postorder (Recursive and Iterative implementations)
+* [X] Level Order Traversal (BFS on trees)
+* [X] All-in-one Traversal strategy
 
 ### Binary Search Trees & Heaps (Sep 10 – Sep 12)
-* [ ] **BST:** Search, Insert, and Delete operations (implement by hand)
-* [ ] **Heaps:** Heapify algorithm, Build Heap in $\mathcal{O}(N)$, Min/Max Heap mechanics, and "Kth Largest" application
+* [X] **BST:** Search, Insert, and Delete operations (implement by hand)
+* [X] **Heaps:** Heapify algorithm, Build Heap in $\mathcal{O}(N)$, Min/Max Heap mechanics, and "Kth Largest" application
 
 ### Graphs & Advanced Structures (Sep 13 – Sep 15)
-* [ ] **Graph Representations:** Adjacency Matrix vs. Adjacency List
-* [ ] **Graph Theory:** BFS and DFS traversal concepts (theory pass)
-* [ ] **Tries:** Basic structure and node representation
+* [X] **Graph Representations:** Adjacency Matrix vs. Adjacency List
+* [X] **Graph Theory:** BFS and DFS traversal concepts (theory pass)
+* [X] **Tries:** Basic structure and node representation
 
 ---
 
@@ -91,12 +91,12 @@ graph LR
 A comprehensive roadmap and problem list categorized by key Data Structures and Algorithms patterns for Software Development Engineer (SDE) interview preparation.
 
 ### 1. Two Pointers ⭐⭐⭐⭐⭐
-* [ ] Two Sum II – Input Array Is Sorted
+* [X] Two Sum II – Input Array Is Sorted
 * [ ] Valid Palindrome
 * [ ] Remove Duplicates from Sorted Array
-* [ ] Move Zeroes
-* [ ] Squares of a Sorted Array
-* [ ] 3Sum
+* [X] Move Zeroes
+* [X] Squares of a Sorted Array
+* [X] 3Sum
 * [ ] Container With Most Water
 * [ ] Sort Colors
 * [ ] Trapping Rain Water
@@ -109,7 +109,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 **Core Problems:** 1–9
 
 ### 2. Fast & Slow Pointers ⭐⭐⭐⭐
-* [ ] Middle of the Linked List
+* [X] Middle of the Linked List
 * [ ] Linked List Cycle
 * [ ] Linked List Cycle II
 * [ ] Happy Number
@@ -129,8 +129,8 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 * [ ] Find All Anagrams in a String
 * [ ] Longest Substring Without Repeating Characters
 * [ ] Longest Repeating Character Replacement
-* [ ] Max Consecutive Ones III
-* [ ] Fruit Into Baskets
+* [X] Max Consecutive Ones III
+* [X] Fruit Into Baskets
 * [ ] Minimum Size Subarray Sum
 * [ ] Longest Subarray of 1's After Deleting One Element
 * [ ] Minimum Window Substring
@@ -275,23 +275,6 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** 1, 2, 3, 6, 7  
 
-#### Important Concepts & Identities:
-$$
-x \oplus x = 0
-$$
-
-$$
-x \oplus 0 = x
-$$
-
-$$
-a \oplus b \oplus a = b
-$$
-
-$$
-n \space \& \space (n - 1) \quad \text{(clears lowest set bit)}
-$$
-
 ### 14. Dynamic Programming ⭐⭐⭐⭐⭐
 #### Beginner / 1D DP
 * [ ] Climbing Stairs
@@ -315,10 +298,6 @@ $$
 * [ ] Edit Distance
 
 **Core Problems:** 1–4, 7, 9, 11, 12  
-**Learning Progression:**  
-$$
-\text{Recursion} \longrightarrow \text{Memoization} \longrightarrow \text{Tabulation} \longrightarrow \text{Space Optimization}
-$$
 
 ### 15. Union Find / DSU ⭐⭐⭐⭐
 * [ ] Number of Provinces
