@@ -31,6 +31,7 @@ This is a living document, not a rigid schedule. Each week, spend two minutes up
 
 ## 🧩 2. Prerequisite Dependency Map
 
+```
 Recursion ────────────────┬─► DFS ───────────────────┬─► Backtracking
                           │                          ├─► Topological Sort
                           │                          └─► Union Find
@@ -50,7 +51,9 @@ Heap ─────────────────────────
 
 Queue + Graph Representation ────────────────────────► BFS
 
-Bitwise Operations ──────────────────────────────────► Bitmasking (Standalone)
+Bitwise Operations ───────────────────────────────────► Bitmasking (Standalone)
+```
+
 > **Quick Gut-Check:** Can you write a recursive function that reverses an array from memory and explain why the base case works out loud? If not, spend an evening patching recursion logic now.
 
 ---
