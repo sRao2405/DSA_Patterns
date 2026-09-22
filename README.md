@@ -31,23 +31,26 @@ This is a living document, not a rigid schedule. Each week, spend two minutes up
 
 ## 🧩 2. Prerequisite Dependency Map
 
-graph LR
-    A[Recursion] --> B[DFS]
-    B --> C[Backtracking]
-    B --> D[Topological Sort]
-    A --> E[Memoization] --> F[Tabulation] --> G[Dynamic Programming]
+Recursion ────────────────┬─► DFS ───────────────────┬─► Backtracking
+                          │                          ├─► Topological Sort
+                          │                          └─► Union Find
+                          │
+                          └─► Memoization ───────────► Tabulation ──────────► Dynamic Programming
 
-    H[Arrays / Sorting] --> I[Two Pointers] --> J[Fast & Slow Pointers]
-    H --> K[Sliding Window]
-    H --> L[Merge Intervals]
-    H --> M[Cyclic Sort]
+Arrays / Sorting ─────────┬─► Two Pointers ──────────► Fast & Slow Pointers
+                          ├─► Sliding Window
+                          ├─► Merge Intervals
+                          └─► Cyclic Sort
 
-    N[Vanilla Binary Search] --> O[Modified BS / Search-on-Answer]
-    P[Stack] --> Q[Monotonic Stack]
-    R[Heap] --> S[Top K / K-Way Merge]
-    T[Queue + Graph] --> U[BFS]
-    V[Bitwise Operations] --> W[Bitmasking]
+Vanilla Binary Search ───────────────────────────────► Modified Binary Search / Search-on-Answer
 
+Stack ───────────────────────────────────────────────► Monotonic Stack
+
+Heap ────────────────────────────────────────────────► Top K Elements / K-Way Merge
+
+Queue + Graph Representation ────────────────────────► BFS
+
+Bitwise Operations ──────────────────────────────────► Bitmasking (Standalone)
 > **Quick Gut-Check:** Can you write a recursive function that reverses an array from memory and explain why the base case works out loud? If not, spend an evening patching recursion logic now.
 
 ---
