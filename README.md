@@ -263,7 +263,6 @@ Bitwise Operations ────────────────────�
 - [ ] Single Number II
 - [ ] Sum of Two Integers
 * **Core Problems:** 1, 2, 3, 6, 7
-* **Important Concepts & Identities:** $x \oplus x = 0$, $x \oplus 0 = x$, $a \oplus b \oplus a = b$, $n \ \& \ (n-1)$ clears lowest set bit
 
 #### 14. Dynamic Programming ⭐⭐⭐⭐⭐
 **Beginner / 1D DP:**
