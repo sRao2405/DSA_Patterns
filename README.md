@@ -31,27 +31,22 @@ This is a living document, not a rigid schedule. Each week, spend two minutes up
 
 ## 🧩 2. Prerequisite Dependency Map
 
-$$
-\begin{aligned}
-\text{Recursion} &\longrightarrow 
-\begin{cases} 
-\text{DFS} \longrightarrow \begin{cases} \text{Backtracking} \\ \text{Topological Sort} \end{cases} \\
-\text{Memoization} \longrightarrow \text{Tabulation} \longrightarrow \text{Dynamic Programming} 
-\end{cases} \\
-\text{Arrays / Sorting} &\longrightarrow 
-\begin{cases} 
-\text{Two Pointers} \longrightarrow \text{Fast \& Slow Pointers} \\
-\text{Sliding Window} \\
-\text{Merge Intervals} \\
-\text{Cyclic Sort} 
-\end{cases} \\
-\text{Vanilla Binary Search} &\longrightarrow \text{Modified Binary Search / Search-on-Answer} \\
-\text{Stack} &\longrightarrow \text{Monotonic Stack} \\
-\text{Heap} &\longrightarrow \text{Top K Elements / K-Way Merge} \\
-\text{Queue + Graph Representation} &\longrightarrow \text{BFS} \\
-\text{Bitwise Operations} &\longrightarrow \text{Bitmasking (Standalone)}
-\end{aligned}
-$$
+graph LR
+    A[Recursion] --> B[DFS]
+    B --> C[Backtracking]
+    B --> D[Topological Sort]
+    A --> E[Memoization] --> F[Tabulation] --> G[Dynamic Programming]
+
+    H[Arrays / Sorting] --> I[Two Pointers] --> J[Fast & Slow Pointers]
+    H --> K[Sliding Window]
+    H --> L[Merge Intervals]
+    H --> M[Cyclic Sort]
+
+    N[Vanilla Binary Search] --> O[Modified BS / Search-on-Answer]
+    P[Stack] --> Q[Monotonic Stack]
+    R[Heap] --> S[Top K / K-Way Merge]
+    T[Queue + Graph] --> U[BFS]
+    V[Bitwise Operations] --> W[Bitmasking]
 
 > **Quick Gut-Check:** Can you write a recursive function that reverses an array from memory and explain why the base case works out loud? If not, spend an evening patching recursion logic now.
 
