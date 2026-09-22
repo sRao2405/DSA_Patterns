@@ -116,7 +116,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 ### 2. Fast & Slow Pointers ⭐⭐⭐⭐
 * [X] Middle of the Linked List
-* [ ] Linked List Cycle
+* [X] Linked List Cycle
 * [ ] Linked List Cycle II
 * [ ] Happy Number
 * [ ] Palindrome Linked List
