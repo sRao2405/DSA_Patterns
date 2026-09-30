@@ -144,7 +144,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 **Core Problems:** 3–7, 9, 11
 
 ### 4. Merge Intervals ⭐⭐⭐⭐
-* [ ] Merge Intervals
+* [X] Merge Intervals
 * [ ] Insert Interval
 * [ ] Non-overlapping Intervals
 * [ ] Meeting Rooms
