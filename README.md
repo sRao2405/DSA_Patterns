@@ -3,8 +3,9 @@
 * **Start Date:** September 5, 2026
 * **Role Target:** Backend Developer (Java)
 * **Peak Hiring Window:** February 2027
-* **Runway:** ~22 Weeks
-* **Status:** Phase 0 Completed | Phase 1 Completed through Arrays, Hashing, Linked Lists (Singly + Doubly), Stack & Queue Implementations
+* **Last Updated:** October 29, 2026 (timeline re-baselined)
+* **Runway Remaining:** ~14 Weeks (Oct 30 → early Feb 2027)
+* **Status:** Phase 0 ✅ | Phase 1 ✅ (Arrays, Hashing, Linked Lists, Stack & Queue, Trees, BST, Heaps, Graph Intro, Tries) | **Phase 2 🔄 in progress — 9 problems solved**
 
 ---
 
@@ -16,15 +17,40 @@ This is a living document, not a rigid schedule. Each week, spend two minutes up
 
 > **Java Continuity Note:** Keep Java running in the background for 30–45 min/day (Core Java, Collections, Multithreading, or Spring Boot features). Never let your Java skills go cold.
 
+> **Re-plan Note (Oct 29):** The original schedule assumed ~3–4 problems/day from Sep 16. Actual progress is ~9 problems into Phase 2, so the remaining patterns have been re-sequenced from **Oct 30** at a sustainable **~2 problems/day (core problems first)**. Phase 3 was compressed to absorb the slip; Phase 4 start date is unchanged.
+
 ---
 
-## 🗺️ 1. Timeline at a Glance
+## 📊 Progress Snapshot (as of Oct 29, 2026)
+
+| Pattern | Solved | Total | Status |
+| :--- | :---: | :---: | :--- |
+| Two Pointers | 4 | 14 | 🔄 Resume |
+| Fast & Slow Pointers | 2 | 10 | 🔄 Resume |
+| Sliding Window | 2 | 11 | 🔄 Resume |
+| Merge Intervals | 1 | 9 | 🔄 Resume |
+| Cyclic Sort | 0 | 7 | ⏳ Not started |
+| Monotonic Stack | 0 | 12 | ⏳ Not started |
+| Modified Binary Search | 0 | 11 | ⏳ Not started |
+| Top K Elements / Heap | 0 | 8 | ⏳ Not started |
+| K-Way Merge | 0 | 7 | ⏳ Not started |
+| BFS / DFS | 0 | 12 | ⏳ Not started |
+| Topological Sort | 0 | 6 | ⏳ Not started |
+| Backtracking / Subsets | 0 | 10 | ⏳ Not started |
+| Bitwise & XOR | 0 | 8 | ⏳ Not started |
+| Dynamic Programming | 0 | 13 | ⏳ Not started |
+| Union Find / DSU | 0 | 7 | ⏳ Not started |
+| **Total** | **9** | **~145** | **~130 remaining (overlaps counted once)** |
+
+---
+
+## 🗺️ 1. Timeline at a Glance (Re-baselined)
 
 | Phase | Window | Duration | Core Focus |
 | :--- | :--- | :--- | :--- |
-| **Phase 1 (Finish)** | Sep 6 – Sep 15 | ~1.5 Weeks | Trees, BST, Heaps & Graph Theory Intro |
-| **Phase 2** | Sep 16 – Dec 15 | 13 Weeks | 275-Sheet Pattern Engine (~3–4 problems/day) |
-| **Phase 3** | Dec 16 – Jan 15 | 4.5 Weeks | Consolidation, Spaced Repetition & Hard Clusters |
+| **Phase 1** ✅ | Sep 6 – Sep 15 | 1.5 Weeks | Trees, BST, Heaps & Graph Theory Intro — **Completed** |
+| **Phase 2** 🔄 | Sep 16 – Dec 31 *(resumed Oct 30)* | ~9 Weeks remaining | Pattern Engine (~2 problems/day, core first) |
+| **Phase 3** | Jan 1 – Jan 15 | 2 Weeks | Consolidation, Spaced Repetition & Hard Clusters |
 | **Phase 4** | Jan 16 – Feb 2027 | ~4 Weeks | Mock Interviews, CS Fundamentals & Peak Drives |
 
 ---
@@ -58,45 +84,48 @@ Bitwise Operations ────────────────────�
 
 ---
 
-## 🌲 3. Phase 1 (Finish) — Trees & Structural Fundamentals
-**Window:** Sep 6 – Sep 15 (10 Days)
+## 🌲 3. Phase 1 ✅ — Trees & Structural Fundamentals (Completed)
+**Window:** Sep 6 – Sep 15
 
-### Tree Traversals (Sep 6 – Sep 9)
+### Tree Traversals
 * [X] Inorder, Preorder, and Postorder (Recursive and Iterative implementations)
 * [X] Level Order Traversal (BFS on trees)
 * [X] All-in-one Traversal strategy
 
-### Binary Search Trees & Heaps (Sep 10 – Sep 12)
+### Binary Search Trees & Heaps
 * [X] **BST:** Search, Insert, and Delete operations (implement by hand)
 * [X] **Heaps:** Heapify algorithm, Build Heap in $\mathcal{O}(N)$, Min/Max Heap mechanics, and "Kth Largest" application
 
-### Graphs & Advanced Structures (Sep 13 – Sep 15)
+### Graphs & Advanced Structures
 * [X] **Graph Representations:** Adjacency Matrix vs. Adjacency List
 * [X] **Graph Theory:** BFS and DFS traversal concepts (theory pass)
 * [X] **Tries:** Basic structure and node representation
 
 ---
 
-## ⚙️ 4. Phase 2 — The 275-Sheet Pattern Engine
-**Window:** Sep 16 – Dec 15 (13 Weeks / ~90 Days)  
-**Target Pacing:** $275 \text{ problems} \div 90 \text{ days} \approx 3\text{--}4 \text{ problems/day}$ *(Easy: 1–2, Medium: 2–3, Hard: skip on first pass)*
+## ⚙️ 4. Phase 2 — The Pattern Engine (Re-baselined)
+**Window:** Oct 30 – Dec 31 (~9 Weeks / 63 Days)
+**Target Pacing:** ~130 remaining problems ÷ 63 days ≈ **2 problems/day** *(Easy: 1–2, Medium: 2–3, Hard: skip on first pass)*. Always do ⭐ **Core Problems** first; do the rest only if time allows.
 
 | Week | Date Range | Pattern Focus | Key Skills & Sub-Topics |
 | :--- | :--- | :--- | :--- |
-| **W1–2** | Sep 16 – Sep 29 | Two Pointers, Fast & Slow, Sliding Window | Dynamic window bounds, cycle detection, pair-sum tricks |
-| **W3** | Sep 30 – Oct 6 | Merge Intervals, Cyclic Sort | Overlapping intervals, in-place array placement |
-| **W4** | Oct 7 – Oct 13 | Monotonic Stack | Next Greater/Smaller Element, Stock Span, Histogram |
-| **W5–6** | Oct 14 – Oct 27 | Modified Binary Search, Top K, K-Way Merge | Rotated array search, search-on-answer, heap selection |
-| **W7–9** | Oct 28 – Nov 17 | BFS, DFS, Topological Sort | Connected components, Kahn's algorithm, bipartite check |
-| **W10** | Nov 18 – Nov 24 | Backtracking / Subsets, Bitwise & XOR | Decision trees, permutations, combinations, bitmasking |
-| **W11–13** | Nov 25 – Dec 15 | Dynamic Programming & Union Find (DSU) | Knapsack, LCS/LIS, Palindromes, Interval DP, Disjoint Set |
+| **W1** | Oct 30 – Nov 5 | Finish Two Pointers, Fast & Slow | Pair-sum tricks, cycle detection, linked-list pointer manipulation |
+| **W2** | Nov 6 – Nov 12 | Finish Sliding Window, Merge Intervals | Dynamic window bounds, overlapping intervals |
+| **W3** | Nov 13 – Nov 19 | Cyclic Sort, Monotonic Stack | In-place array placement, Next Greater/Smaller, Histogram |
+| **W4** | Nov 20 – Nov 26 | Modified Binary Search, Top K Elements | Rotated array search, search-on-answer, heap selection |
+| **W5** | Nov 27 – Dec 3 | K-Way Merge, BFS / DFS | Merge K lists, connected components, grid traversal, multi-source BFS |
+| **W6** | Dec 4 – Dec 10 | Topological Sort, Backtracking / Subsets | Kahn's algorithm, cycle detection, permutations, combinations |
+| **W7** | Dec 11 – Dec 17 | Bitwise & XOR, Union Find (DSU), start DP | XOR tricks, disjoint sets, 1D DP basics |
+| **W8–9** | Dec 18 – Dec 31 | Dynamic Programming | Knapsack, LCS/LIS, Edit Distance, Grid DP |
+
+> **Fallback rule:** If you fall behind again, cut *non-core* problems first (and for Cyclic Sort / Bitwise, do core-only). Never cut Binary Search, BFS/DFS, Backtracking, or DP core problems — they are the highest-frequency interview topics.
 
 ---
 
 ## SDE Interview DSA — Complete Question List
 A comprehensive roadmap and problem list categorized by key Data Structures and Algorithms patterns for Software Development Engineer (SDE) interview preparation.
 
-### 1. Two Pointers ⭐⭐⭐⭐⭐
+### 1. Two Pointers ⭐⭐⭐⭐⭐  *(4 / 14)*
 * [X] Two Sum II – Input Array Is Sorted
 * [ ] Valid Palindrome
 * [ ] Remove Duplicates from Sorted Array
@@ -114,7 +143,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** 1–9
 
-### 2. Fast & Slow Pointers ⭐⭐⭐⭐
+### 2. Fast & Slow Pointers ⭐⭐⭐⭐  *(2 / 10)*
 * [X] Middle of the Linked List
 * [X] Linked List Cycle
 * [ ] Linked List Cycle II
@@ -128,7 +157,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** 1–7
 
-### 3. Sliding Window ⭐⭐⭐⭐⭐
+### 3. Sliding Window ⭐⭐⭐⭐⭐  *(2 / 11)*
 * [ ] Maximum Average Subarray I
 * [ ] Maximum Number of Vowels in a Substring of Given Length
 * [ ] Permutation in String
@@ -143,7 +172,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** 3–7, 9, 11
 
-### 4. Merge Intervals ⭐⭐⭐⭐
+### 4. Merge Intervals ⭐⭐⭐⭐  *(1 / 9)*
 * [X] Merge Intervals
 * [ ] Insert Interval
 * [ ] Non-overlapping Intervals
@@ -156,7 +185,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** 1–5
 
-### 5. Cyclic Sort ⭐⭐⭐
+### 5. Cyclic Sort ⭐⭐⭐  *(0 / 7)*
 * [ ] Missing Number
 * [ ] Find All Numbers Disappeared in an Array
 * [ ] Find the Duplicate Number
@@ -167,7 +196,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** 1, 2, 5, 6
 
-### 6. Monotonic Stack ⭐⭐⭐⭐⭐
+### 6. Monotonic Stack ⭐⭐⭐⭐⭐  *(0 / 12)*
 * [ ] Next Greater Element I
 * [ ] Next Greater Element II
 * [ ] Daily Temperatures
@@ -183,7 +212,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** 1–8
 
-### 7. Modified Binary Search ⭐⭐⭐⭐⭐
+### 7. Modified Binary Search ⭐⭐⭐⭐⭐  *(0 / 11)*
 * [ ] Search in Rotated Sorted Array
 * [ ] Search in Rotated Sorted Array II
 * [ ] Find Minimum in Rotated Sorted Array
@@ -198,7 +227,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** 1, 3, 4, 5, 7, 9
 
-### 8. Top K Elements / Heap ⭐⭐⭐⭐⭐
+### 8. Top K Elements / Heap ⭐⭐⭐⭐⭐  *(0 / 8)*
 * [ ] Kth Largest Element in an Array
 * [ ] Top K Frequent Elements
 * [ ] K Closest Points to Origin
@@ -210,7 +239,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** 1–6
 
-### 9. K-Way Merge ⭐⭐⭐⭐
+### 9. K-Way Merge ⭐⭐⭐⭐  *(0 / 7)*
 * [ ] Merge K Sorted Lists
 * [ ] Kth Smallest Element in a Sorted Matrix
 * [ ] Find K Pairs with Smallest Sums
@@ -222,7 +251,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 **Core Problems:** 1–5  
 *Note: Kth Smallest in Sorted Matrix and Find K Pairs with Smallest Sums overlap with Top-K. You don't need to solve them twice.*
 
-### 10. BFS / DFS ⭐⭐⭐⭐⭐
+### 10. BFS / DFS ⭐⭐⭐⭐⭐  *(0 / 12)*
 #### Trees
 * [ ] Binary Tree Level Order Traversal
 * [ ] Maximum Depth of Binary Tree
@@ -241,7 +270,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** Number of Islands, Clone Graph, Flood Fill, Rotting Oranges, Level Order Traversal, Number of Provinces.
 
-### 11. Topological Sort ⭐⭐⭐⭐⭐
+### 11. Topological Sort ⭐⭐⭐⭐⭐  *(0 / 6)*
 * [ ] Course Schedule
 * [ ] Course Schedule II
 * [ ] Alien Dictionary
@@ -254,7 +283,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 * Kahn's Algorithm: BFS + Indegree
 * DFS: Cycle Detection
 
-### 12. Backtracking / Subsets ⭐⭐⭐⭐⭐
+### 12. Backtracking / Subsets ⭐⭐⭐⭐⭐  *(0 / 10)*
 * [ ] Subsets
 * [ ] Permutations
 * [ ] Combination Sum
@@ -269,7 +298,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 **Core Problems:** 1–7  
 **Fundamental Pattern:** $\text{Choose} \longrightarrow \text{Explore} \longrightarrow \text{Undo}$
 
-### 13. Bitwise & XOR ⭐⭐⭐⭐
+### 13. Bitwise & XOR ⭐⭐⭐⭐  *(0 / 8)*
 * [ ] Single Number
 * [ ] Missing Number
 * [ ] Number of 1 Bits
@@ -281,7 +310,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** 1, 2, 3, 6, 7  
 
-### 14. Dynamic Programming ⭐⭐⭐⭐⭐
+### 14. Dynamic Programming ⭐⭐⭐⭐⭐  *(0 / 13)*
 #### Beginner / 1D DP
 * [ ] Climbing Stairs
 * [ ] House Robber
@@ -305,7 +334,7 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 **Core Problems:** 1–4, 7, 9, 11, 12  
 
-### 15. Union Find / DSU ⭐⭐⭐⭐
+### 15. Union Find / DSU ⭐⭐⭐⭐  *(0 / 7)*
 * [ ] Number of Provinces
 * [ ] Redundant Connection
 * [ ] Accounts Merge
@@ -327,16 +356,16 @@ A comprehensive roadmap and problem list categorized by key Data Structures and 
 
 ---
 
-## 🔁 5. Phase 3 — Consolidation & Hard Clusters
-**Window:** Dec 16 – Jan 15 (4.5 Weeks)
+## 🔁 5. Phase 3 — Consolidation & Hard Clusters (Compressed)
+**Window:** Jan 1 – Jan 15 (2 Weeks)
 
-### Spaced Repetition Pass (Dec 16 – Dec 31)
+### Spaced Repetition Pass (Jan 1 – Jan 7)
 * [ ] Re-solve all entries in your **Struggled / Needs Revisit tracker**.
 * [ ] Ignore problems you solved easily on your first attempt.
 
-### Selective Hard Clusters Pass (Jan 1 – Jan 15)
+### Selective Hard Clusters Pass (Jan 8 – Jan 15)
 * [ ] Binary Search on Answer (Hard variations)
-* [ ] Advanced DP (State Machine DP, Bitmask DP)
+* [ ] Advanced DP (State Machine DP, Bitmask DP) — *only if core DP is solid*
 * [ ] Advanced Graph / Topological Sort variations
 
 ### Timed Execution Practice
@@ -380,6 +409,8 @@ $$
 * [ ] Master Core Java details (Java 8+ Features, Memory Model, Garbage Collection, Locks & Multithreading).
 * [ ] Polish a presentable Spring Boot REST API project with clear architecture details.
 
+> **Tip:** Since Phase 2 now runs to Dec 31, start the CS Fundamentals block lightly (15–20 min/day) from mid-December so Phase 4 isn't a cold start.
+
 ---
 
 ## 📚 8. Educator Reference Matrix
@@ -396,7 +427,8 @@ $$
 ## 🔄 9. Weekly Review Ritual (Every Sunday)
 
 Spend 5 minutes every Sunday checking these key metrics:
-1. **Pacing Check:** Did you hit your problem target for the week?
+1. **Pacing Check:** Did you hit your problem target for the week (~14 problems at 2/day)?
 2. **Failure Analysis:** Are there common patterns in your Struggled list (e.g., missing base cases, wrong loop bounds)?
 3. **Java Check:** Did you maintain your daily 30–45 minute Java study habit?
-4. **Action Item:** What is the single main change you will make next week?
+4. **Progress Snapshot:** Update the solved counts in the table at the top.
+5. **Action Item:** What is the single main change you will make next week?
